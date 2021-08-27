@@ -22,11 +22,11 @@ export class BookListComponent implements OnInit {
     })
   }
 
-  deleteBook(id:any){
-    if (confirm('Are you sure?')){
-      this.bookService.delete(id).subscribe(() => this.getAllBooks()
-      )
-    }
-  }
+  // deleteBook(id:any){
+  //   if (confirm('Are you sure?')){
+  //     this.bookService.delete(id).subscribe(() => this.getAllBooks()
+  //     )
+  //   }
+  // }
 
 }

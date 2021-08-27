@@ -20,7 +20,7 @@
       <td>{{book.author}}</td>
       <td>{{book.description}}</td>
       <td><button class="btn btn-primary" routerLink ="/books/{{book.id}}/edit">Update</button></td>
-      <td><button class="btn btn-danger" (click)="deleteBook(book.id)">Delete</button></td>
+      <td><button class="btn btn-danger" routerLink="/books/{{book.id}}/delete">Delete</button></td>
 
     </tr>
     </tbody>

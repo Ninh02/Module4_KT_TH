@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Xóa sách</h1>
+  <p>Tên: {{book.title}}</p>
+  <p>Tác giả: {{book.author}}</p>
+  <p>Mô tả: {{book.description}}</p>
+  <a class="btn btn-danger" (click)="deleteBook()">Xóa</a>
+  <a class="btn btn-primary" routerLink="/books/list">Thoát</a>
+</div>
